@@ -1,0 +1,99 @@
+body {
+    background-color: lightskyblue;
+}
+.contenedor {  
+    background-color: lightpink;
+    display: block;
+    width: 1000px;
+    height: 400px;
+}
+
+.conjunto{
+    display: flex;
+    width: 1000px;
+    height: 100px;
+}
+
+.caja{
+    background-color: red;
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.enlance1{
+    color: white;
+}
+
+.enlance2{
+    color: white;
+}
+
+.enlance3{
+    color: white;
+}
+
+.contenido{
+    background-color: beige;
+    width: 1100px;
+    height: 110px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+}
+
+@media screen and (min-width: 230px) and (max-width:800px){
+    
+     .contenedor {
+        background-color: mediumseagreen;
+        width: 800px;
+        height: 60px;
+     }
+
+     .conjunto {
+        display: block;
+     }
+
+     .caja {
+        background-color: goldenrod;
+        width: 800px;
+     }
+
+     .enlance1 {
+        color: black;
+        margin-bottom: 20px;
+     }
+
+     .enlance2 {
+        color: black;
+        margin-bottom: 20px;
+     }
+
+     .enlance3 {
+        color: black;
+     }
+
+     .contenido {
+        background-color: moccasin;
+        position: relative;
+        bottom: 10px;
+        width: 800px;
+        margin: 0;
+        border: 1px solid black;
+     }
+
+     aside {
+        background-color: dimgray;
+        position: relative;
+        bottom: 20px;
+        border: 1px solid black;
+        width: 800px;
+        height: 130px;
+     }
+}
