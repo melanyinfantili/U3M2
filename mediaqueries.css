@@ -54,15 +54,18 @@ aside {
         background-color: mediumseagreen;
         width: 800px;
         height: 60px;
+        width: 100%;
      }
 
      .conjunto {
         display: block;
+        width: 100%;
      }
 
      .caja {
         background-color: goldenrod;
         width: 800px;
+        width: 100%;
      }
 
      .enlance1 {
@@ -86,6 +89,9 @@ aside {
         width: 800px;
         margin: 0;
         border: 1px solid black;
+        width: 100%;
+        box-sizing: border-box;
+
      }
 
      aside {
@@ -93,7 +99,9 @@ aside {
         position: relative;
         bottom: 20px;
         border: 1px solid black;
+        box-sizing: border-box;
         width: 800px;
         height: 130px;
+        width: 100%;
      }
 }
